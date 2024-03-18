@@ -9,7 +9,7 @@ $ go run .
 
 - In Go, statements are separated by ending a line (hitting the Enter key) or by a semicolon ";".
 
-- **Go** comments: 
+- **Comments** in *go*: 
     - Single line comments starts with `//`.
     - multline comments `/*` and `*/`.
 
