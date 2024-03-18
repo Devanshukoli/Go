@@ -108,3 +108,6 @@ array_name := [...]<data_type>{here goes values} // Here the length will *inferr
         ```go
             myslice1 := make([]int, 5, 10)
         ```
+
+- **Operators** in *go*.
+    - There are *Arithmetic*, *assignment*, *comparison*, *logical*, *bitwise*.
