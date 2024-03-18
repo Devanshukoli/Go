@@ -87,4 +87,24 @@ array_name := [...]<data_type>{here goes values} // Here the length will *inferr
 
 
 - **Slices** in *go*.
-    - 
+    - In simple Terms *slices* are very similar to *Arrays*.
+    - In *go*, there are several ways to create slice:
+        1. Using `[]datatype{values}` format
+        ```go
+            mySlice := []int{1, 3, 4} 
+            // The code above declares a slice of integers of length 3 and also the capacity of 3.
+        ```
+        - `len()`: returns the length of the slice (the number of elements in the slice)
+        - `cap()`: returns the capacity of the slice (the number of elements the slice can grow or shrink to)
+
+        2. Create a slice from *Array*.
+        ```go
+        arr := [3]int{2, 4, 5}
+        mySlice := arr[1:2] // array[start:end]
+        ```
+
+        3. Create a slice with make() function.
+        - syntax : `slice_name := make([]type, length, capacity)`
+        ```go
+            myslice1 := make([]int, 5, 10)
+        ```
