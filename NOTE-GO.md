@@ -111,3 +111,9 @@ array_name := [...]<data_type>{here goes values} // Here the length will *inferr
 
 - **Operators** in *go*.
     - There are *Arithmetic*, *assignment*, *comparison*, *logical*, *bitwise*.
+
+- **Conditions** in *go*.
+    - Use `if`, condition is *true*
+    - Use `else`, condition is *false*
+    - Use `else if` to specify a new condition to test, if the first condition is *false*
+    - Use `switch` to specify many alternative blocks of code to be executed
