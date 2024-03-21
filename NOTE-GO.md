@@ -79,11 +79,11 @@ $ go run .
     - Go is statically typed, meaning that once the data types is defined, it can only store that type of data.
 
 - **Arrays** in *go*.
-```go
-array_name = [length]<data_type>{here goes values} // The length should be pre-defined.
-**OR**
-array_name := [...]<data_type>{here goes values} // Here the length will *inferred* (means that the compiler decides the length of the array, based on the number of values.)
-```
+    ```go
+    array_name = [length]<data_type>{here goes values} // The length should be pre-defined.
+    **OR**
+    array_name := [...]<data_type>{here goes values} // Here the length will *inferred* (means that the compiler decides the length of the array, based on the number of values.)
+    ```
 
 
 - **Slices** in *go*.
@@ -117,3 +117,6 @@ array_name := [...]<data_type>{here goes values} // Here the length will *inferr
     - Use `else`, condition is *false*
     - Use `else if` to specify a new condition to test, if the first condition is *false*
     - Use `switch` to specify many alternative blocks of code to be executed
+    - [if-else statements](https://yourbasic.org/golang/if-else-statement/)
+    - [gobyexample : if-else](https://gobyexample.com/if-else)
+    - [golang programs: If-else](https://www.golangprograms.com/golang-if-else-statements.html)
