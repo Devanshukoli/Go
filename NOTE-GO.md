@@ -164,3 +164,7 @@ $ go run .
   - [Effective Go: For loop](https://go.dev/doc/effective_go#for)
   - [Go by Example: For loop](https://gobyexample.com/for)
   - [5 basic for loop patterns](https://yourbasic.org/golang/for-loop/)
+
+- **Functions** in *go*.
+  - Function allows you to extract commonly used block of code into a single component.
+  - `main()` this funciton is an *entry point* to say in `#golang`.
