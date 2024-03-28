@@ -168,3 +168,7 @@ $ go run .
 - **Functions** in *go*.
   - Function allows you to extract commonly used block of code into a single component.
   - `main()` this funciton is an *entry point* to say in `#golang`.
+
+- **Structs** in *go*.
+  - It is used to create a collection of members of different data types, into a single variable.
+  - While arrays are used to store multiple values of the same data type into a single variable, structs are used to store multiple values of different data types into a single variable.
